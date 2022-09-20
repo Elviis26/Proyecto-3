@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+*{
+    font-family: 'Combo', cursive;
+}
+
+
+#titulo{       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+#color{
+
+    font-size: 1px;
+    
+}
+
+#tarjeta{  
+    background-image: linear-gradient(45deg, #f17c5b,#E94584,#24AADB,#27DBB1,#FFDC18,#FF3706 );    
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;   
+    border-radius: 30px;
+    width: 20%;
+    height: 35%;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 33%;
+    left: 43%;    
+}
+
+#boton-color{    
+    background-color: rgb(233, 238, 203);    
+    border-radius: 15px;    
+}
